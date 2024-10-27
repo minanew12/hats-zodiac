@@ -12,14 +12,6 @@ A contract that grants multisig signing rights to addresses wearing a given Hat,
 
 ### Overview
 
-#### Zodiac Module
-
-[HatsSignerGate.sol](./src/HatsSignerGate.sol) is a **Zodiac module** that...
-
-1. Grants multisig signing rights to addresses based on whether they are wearing the appropriate Hat(s).
-2. Removes signers who are no long valid (i.e. no longer wearing the signer Hat)
-3. Manages the multisig threshold within the [owner](#contract-ownership)-specified range as new signers are added or removed.
-
 #### Zodiac Guard
 
 Since Hat-wearing is dynamic — Hats can be programmatically revoked from wearers — this contract also services as a **Zodiac guard** to ensure that:
